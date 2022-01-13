@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Gica e Valen 💜💛">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 
     <title>Controle de Gastos 💸💅</title>
 </head>
@@ -15,6 +16,7 @@
     <main>
         <section class="secaoAddInfo">
             <h1>Controle de Gastos Kenzie</h1>
+            <p id="intro"></p>
             <div class="FormAddOrcamento">
                 <h2>Total orçamento</h2>
                 <input type="text">
@@ -30,7 +32,7 @@
 
             <div class="containerDespesas">
                 <div class="containerDespesasCabecalho">
-                    <p>Título despesa</p>
+                    <p class="tituloDespesa">Título despesa</p>
                     <p>Valor despesa</p>
 
                 </div>
@@ -39,26 +41,29 @@
                         <li>
                             <h3>hotel</h3>
                             <p>R$43</p>
-                            <img src="" alt="">
+                            <img src="./lixo.png" alt="lixeira">
                         </li>
                     </ul>
                 </div>
-        </section class="secaoResultados">
-        <div class="secaoResultados_Orcamento">
-            <h3>Orçamento</h3>
-            <p>+R$ 0</p>
-        </div>
-        <div class="secaoResultados_Despesas">
-            <h3>Despesas</h3>
-            <p>- R$0</p>
 
-        </div>
-        <div class="secaoResultados_Saldo">
-            <h3>Saldo</h3>
-            <p>R$0</p>
-        </div>
-        <section>
 
+
+            </div>
+        </section>
+        <section class="secaoResultados">
+            <div class="secaoResultados_Orcamento">
+                <h3>Orçamento</h3>
+                <p>+R$ 0</p>
+            </div>
+            <div class="secaoResultados_Despesas">
+                <h3>Despesas</h3>
+                <p>- R$0</p>
+
+            </div>
+            <div class="secaoResultados_Saldo">
+                <h3>Saldo</h3>
+                <p>R$0</p>
+            </div>
         </section>
 
     </main>
