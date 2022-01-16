@@ -151,3 +151,7 @@ main section {
 .secaoResultados_Saldo p {
     color: cornflowerblue;
 }
+
+button {
+    cursor: pointer;
+}
